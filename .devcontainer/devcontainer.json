@@ -32,6 +32,20 @@
                     "reportGeneralTypeIssues": "error",
                     "reportDeprecated": "error",
                     "reportImportCycles": "error"
+                },
+                "files.exclude": {
+                    "**/.git": true,
+                    "**/.svn": true,
+                    "**/.hg": true,
+                    "**/CVS": true,
+                    "**/.DS_Store": true,
+                    "**/Thumbs.db": true,
+                    "**/__pycache__": true,
+                    "**/.pytest_cache": true,
+                    "**/.mypy_cache": true,
+                    "**/.flake8": true,
+                    "**/pyrightconfig.json": true,
+                    "**/.gitignore": true
                 }
             }
         }

@@ -1,0 +1,17 @@
+{
+    "include": [
+        "."
+    ],
+    "exclude": [
+        "**/__pycache__",
+        "**/.pytest_cache",
+        "**/.mypy_cache",
+    ],
+    "reportMissingImports": true,
+    "reportMissingTypeStubs": false,
+    "reportUnknownMemberType": false,
+    "reportUnusedVariable": "warning",
+    "reportUnusedExpression": "warning",
+    "reportUnusedImport": "warning",
+    "pythonVersion": "3.12"
+}
