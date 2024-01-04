@@ -1,0 +1,13 @@
+/** COMP110 Students: Please do not modify this file. */
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug",
+            "type": "python",
+            "request": "launch",
+            "module": "trailhead",
+            "justMyCode": true
+        }
+    ]
+}
