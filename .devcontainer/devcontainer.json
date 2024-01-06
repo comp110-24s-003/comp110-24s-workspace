@@ -8,7 +8,7 @@ It ensures everyone's VSCode is setup properly for success in the course.
 */
 {
     "name": "comp110-24s-003",
-    "image": "krisjordan/trailhead:0.0.25",
+    "image": "krisjordan/trailhead:0.0.26",
     "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
     "workspaceFolder": "/workspace",
     "remoteUser": "vscode",
