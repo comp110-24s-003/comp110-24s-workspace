@@ -54,7 +54,8 @@ It ensures everyone's VSCode is setup properly for success in the course.
                     "**/.flake8": true,
                     "**/pyrightconfig.json": true,
                     "**/.gitignore": true,
-                    "**/.vscode": true
+                    "**/.vscode": true,
+                    "**/tools": true
                 }
             }
         }
