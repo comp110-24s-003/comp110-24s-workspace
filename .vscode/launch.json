@@ -3,7 +3,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug",
+            "name": "Start Trailhead in Debug Mode",
             "type": "python",
             "request": "launch",
             "module": "trailhead",
