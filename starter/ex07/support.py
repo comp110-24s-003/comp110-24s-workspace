@@ -62,17 +62,17 @@ class Filter(Protocol):
         ...
 
 
-# Type Alias
+# Type Alias to make it explicit where a "string" is actually a Base64 encoded image
 Base64ImageStr = str
 
 
 class Request:
     """Represents a request from the front-end user interface."""
 
-    image: Bitmap  # TODO Request
+    image: Bitmap
     filters: list[Filter]
 
-    def __init__(self, image: str, filters: list[Filter]):
+    def __init__(self, image: Base64ImageStr, filters: list[Filter]):
         self.image = bitmap_from_base64(image)
         self.filters = filters
 

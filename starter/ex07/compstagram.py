@@ -136,6 +136,6 @@ class BorderFilter:
         return bitmap
 
 
-# TODO: Define BrightnessFilter
+# TODO: Define the BrightnessFilter Class
 
-# TODO: Define SaturationFilter
+# TODO: Define the SaturationFilter Class
