@@ -1,4 +1,4 @@
-"""Transformations between representations of data."""
+"""Support code for Compstagram."""
 
 __author__ = "Kris Jordan <kris@cs.unc.edu>"
 

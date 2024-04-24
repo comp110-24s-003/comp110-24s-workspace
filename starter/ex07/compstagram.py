@@ -28,10 +28,11 @@ def main(request: Request) -> Base64ImageStr:
     """
     image: Bitmap = request.image
 
-    # TODO: Loop through each object implementing the Filter prototype
-    # and call its process method on the `image` Bitmap to apply it.
-    for filter in request.filters:
-        image = filter.process(image)
+    # TODO: Replace the following if statement with a for-in loop that moves
+    # through each Filter in the Request object's filters list & processes the image
+    # with it. The following code snippet only applies the first filter added.
+    if len(request.filters) > 0:
+        image = request.filters[0].process(image)
 
     # Finally, we convert the Bitmap back to a special data string for the GUI
     return bitmap_to_base64(image)
