@@ -42,7 +42,7 @@ class Bitmap:
         for _y in range(height):
             row: list[Color] = []
             for _x in range(width):
-                row.append(Color(0.0, 0.0, 0.0))
+                row.append(Color(0, 0, 0))
             self.pixels.append(row)
 
     def get_pixel(self, x: int, y: int) -> Color:
